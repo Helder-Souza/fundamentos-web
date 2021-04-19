@@ -1,0 +1,98 @@
+/* Estilos da pagina index.html */
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body {
+    background-color: #072083;
+}
+.center {
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Ranchers', cursive;
+    font-size: 40px;
+    color: #F85B1A;
+}
+
+h2 {
+    font-family: 'Ranchers', cursive;
+    color: #F85B1A;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+    
+
+#menu li a {
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+
+}
+
+#menu li a:hover{
+    color: #F85B1A;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 10%;
+}
+.wh {
+    width: 500px;
+    height: 350px;
+}
+
+/* Estilos da pagina contato.html */
+
+.tm-social{
+    height: 50px;
+    height: 50px;
+    
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+fieldset#anime{
+    width: 200px;
+}
+
+button {
+    width: 100px;
+    border-radius: 20px;
+    border-color: #F85B1A;
+    font-weight: bold;
+    color: #F85B1A;
+}
+
+button:hover {
+    background-color: #F85B1A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.txt-white {
+    color: #fff;
+}

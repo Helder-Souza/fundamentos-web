@@ -5,46 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
+    <ul id="menu">
+
+        <li class="brand">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="Logo do anime Dragon Ball">
+            </a> 
         </li>
+
         <li>
             <a href="contato.html"> Contato </a>
         </li>
+        
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="comentario">Comentário:</label> <br>
-        <textarea name="comentario" id="comentario" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50">
 
-    <h2>Endereço:</h2>
+        <div>
 
-    <p>Parque do Estado</p>
-    <p>São Paulo - SP</p>
+            <form>
+                <label for="nome" class="txt-white">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email" class="txt-white">E-mail:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <fieldset id="anime"><legend class="txt-white">Qual é a sua saga preferida:</legend>
+                    <input type="radio" name ="tanime" id="favorita" checked><label for="favorita" class="txt-white">Dragon Ball</label> <br>
+                    <input type="radio" name ="tanime" id="favorita1"><label for="favorita1" class="txt-white">Dragon Ball Z</label> <br>
+                    <input type="radio" name ="tanime" id="favorita2"><label for="favorita2" class="txt-white">Dragon Ball Z Super</label> <br>
+                    <input type="radio" name ="tanime" id="favorita3"><label for="favorita3" class="txt-white">Dragon Ball GT</label>
+                </fieldset>
+                <br>
+                <br>
+                <label for="comentario" class="txt-white">Comentário:</label> <br>
+                <textarea name="comentario" id="comentario" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.4058712726571!2d-46.
-    63122804127805!3d-23.646912100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-    1!3m3!1m2!1s0x94ce5b6c553bc343%3A0xe0c98fb76df31fa2!2sCCXP%20(Comic%20Con%20Experience)
-    !5e0!3m2!1spt-BR!2sbr!4v1618585497194!5m2!1spt-BR!2sbr"
-     width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="ml-50">
+
+            <p class="txt-white">Parque do Estado</p>
+            <p class="txt-white">São Paulo - SP</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.4058712726571!2d-46.
+            63122804127805!3d-23.646912100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x94ce5b6c553bc343%3A0xe0c98fb76df31fa2!2sCCXP%20(Comic%20Con%20Experience)
+            !5e0!3m2!1spt-BR!2sbr!4v1618585497194!5m2!1spt-BR!2sbr"
+             width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </div>
+
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="" target="_blank"><img class="tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub"></a>
+            <a href="" target="_blank"><img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+            <a href="" target="_blank"><img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram"></a>
+        </div>
+
+        <p class="center txt-white">
+            Todos os direitos reservados: Helder Souza &copy
+        </p>
+    </footer>
 
 </body>
 </html>
