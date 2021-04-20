@@ -11,14 +11,14 @@
 
     <ul id="menu">
 
-        <li class="brand">
-            <a href="index.html">
+        <li>
+            <a href="index.html" onmouseover="mudaFoto('assets/img/blue.png')"onmouseout="mudaFoto('assets/img/db.png')">
                 <img src="assets/img/logo.png" alt="Logo do anime Dragon Ball">
             </a> 
         </li>
 
         <li>
-            <a href="contato.html"> Contato </a>
+            <a href="contato.html" onmouseover="mudaFoto2('assets/img/vegetto.png')"onmouseout="mudaFoto2('assets/img/kaioken.png')"> Contato </a>
         </li>
         
     </ul>
@@ -46,7 +46,7 @@
         </div>
 
         <div>
-            <img class="p-30 wh" src="assets/img/dragon.jpg" alt="Imagem do personagem Bardock">
+            <img id="imagem" class="p-30 wh" onmousemove="imagemZoom()" onmouseout="imagemNormal()" src="assets/img/dragon.jpg" alt="Imagem do personagem Bardock">
         </div>
                 
     </div>
@@ -63,6 +63,7 @@
     <footer>
 
         <div class="container">
+            <img src="assets/img/gifgoku.gif" alt="Gif de Dragon Ball Z">
             <a href="" target="_blank"><img class="tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub"></a>
             <a href="" target="_blank"><img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
             <a href="" target="_blank"><img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram"></a>
@@ -73,5 +74,6 @@
         </p>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
