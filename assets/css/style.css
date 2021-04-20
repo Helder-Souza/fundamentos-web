@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
 body {
-    background-color: #072083;
+    background-color: #292929;
 }
 .center {
     text-align: center;
@@ -15,11 +15,14 @@ h1 {
     font-family: 'Ranchers', cursive;
     font-size: 40px;
     color: #F85B1A;
+    text-shadow: white 2px 5px;
 }
 
 h2 {
     font-family: 'Ranchers', cursive;
     color: #F85B1A;
+    font-size: 30px;
+    text-shadow: white 2px 5px;
 }
 
 .container{
@@ -27,6 +30,16 @@ h2 {
     flex-flow: row ;
     justify-content: center;
     align-items: center;
+}
+
+.container-menu{
+    display: flex;
+    justify-content:center;
+}
+
+.img-menu {
+    width: 200px;
+    height: 200px;
 }
 
 #menu li{
@@ -95,4 +108,26 @@ button:hover {
 
 .txt-white {
     color: #fff;
+}
+
+.bg-gray {
+    background-color: #696969;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type=text]:focus {
+    border: 3px solid #F85B1A;
+    border-radius: 20px;
+  }
+
+  input[type=email]:focus {
+    border: 3px solid #F85B1A;
+    border-radius: 20px;
+  }
+
+textarea:focus {
+    border: 3px solid #F85B1A;
+    border-radius: 20px;
 }
